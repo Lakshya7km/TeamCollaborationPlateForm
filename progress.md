@@ -65,8 +65,8 @@
 
 | Day      | Topic                                      | Status |
 | -------- | ------------------------------------------ | :----: |
-| ✅ Day 1  | Project Architecture & Production Setup    |    ✅   |
-| ⬜ Day 2  | User Model, Authentication, Register/Login |    ⬜   |
+| ✅ Day 1  | Project Architecture & Production Setup   |    ✅ |
+| ✅ Day 2  | User model + basic user creation endpoint |    ✅  |
 | ⬜ Day 3  | JWT + Refresh Token + Cookies              |    ⬜   |
 | ⬜ Day 4  | Email Verification + Forgot Password       |    ⬜   |
 | ⬜ Day 5  | Role-Based Access Control (RBAC)           |    ⬜   |
@@ -178,7 +178,7 @@ GET /api/v1/health
 | Day    | Commit                                    |
 | ------ | ----------------------------------------- |
 | Day 1  | Project architecture and production setup |
-| Day 2  |                                           |
+| Day 2  |  User model and registration API          |
 | Day 3  |                                           |
 | Day 4  |                                           |
 | Day 5  |                                           |
@@ -210,7 +210,7 @@ GET /api/v1/health
 # 📈 Current Progress
 
 ```text
-████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1 / 27 Days
+████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2 / 27 Days
 ```
 
 ---
