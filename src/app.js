@@ -7,6 +7,7 @@ const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const notFoundMiddleware = require('./middleware/notFound.middleware');
 const globalErrorHandler = require('./middleware/errorHandlermiddleware')
+const userRoutes = require('./routes/user.routes')
 
 app.use(helmet());//helps secure the express app by setting various HTTP headers
 app.use(cors());//enable CORS for all routes it unblocks the cross orgin requests
@@ -20,7 +21,7 @@ app.use(morgan())
 
 
 app.use('/api/v1/health', healthRoutes);
-
+app.use('/api/v1/users', userRoutes);
 
 app.use(notFoundMiddleware);
 //below this the global error handler 
