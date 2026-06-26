@@ -69,7 +69,7 @@
 | :--- | :--- | :--- | :---: |
 | ✅ **Day 1** (June 24) | Project Architecture & Production Setup | Express Server, Logger & Health Endpoint | ✅ |
 | ✅ **Day 2** (June 25) | User Model & Basic Registration API | User Schema & `bcrypt` Password Hashing | ✅ |
-| ⬜ **Day 3** (June 26) | JWT Token Basics & Login API | Issue JWT Access Tokens, Error handling on wrong password | ⬜ |
+| ✅ **Day 3** (June 26) | JWT Token Basics & Login API | Issue JWT Access Tokens, Error handling on wrong password | ✅ |
 | ⬜ **Day 4** (June 27) | Cookie Storage & Authentication Middleware | Implement `auth.middleware.js` to protect user routes | ⬜ |
 | ⬜ **Day 5** (June 28) | Refresh Token Rotation | Endpoints to refresh expired tokens, handle token expiry errors | ⬜ |
 | ⬜ **Day 6** (June 29) | Role-Based Access Control (RBAC) | Role fields (`Admin`, `Member`), authorization middleware | ⬜ |
@@ -211,7 +211,7 @@ GET /api/v1/health
 # 📈 Current Progress
 
 ```text
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2 / 26 Days (7.7%)
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3 / 26 Days (7.7%)
 ```
 
 ---
