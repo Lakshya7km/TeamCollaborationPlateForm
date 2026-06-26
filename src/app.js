@@ -23,6 +23,7 @@ app.use(morgan())
 app.use('/api/v1/health', healthRoutes);
 app.use('/api/v1/users', userRoutes);
 
+
 app.use(notFoundMiddleware);
 //below this the global error handler 
 app.use(globalErrorHandler)
